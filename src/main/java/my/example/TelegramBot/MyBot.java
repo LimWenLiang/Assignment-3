@@ -14,13 +14,11 @@ public class MyBot extends TelegramLongPollingBot {
 
     @Override
     public void onUpdateReceived(Update update) {
-
         String input = update.getMessage().getText();
         freqCount(input);
         message.setChatId(update.getMessage().getChatId());
 
         Thread thread = new Thread(() -> {
-
             try {
                 execute(message.setText("Thread Name: " + Thread.currentThread().getName()));
                 execute(message.setText("Length: " + countLength(input)));
@@ -39,7 +37,6 @@ public class MyBot extends TelegramLongPollingBot {
             } catch (TelegramApiException e) {
                 e.printStackTrace();
             }
-
         });
         thread.start();
 
@@ -53,7 +50,6 @@ public class MyBot extends TelegramLongPollingBot {
     }
 
     public static void freqCount(String str) {
-
         str = str.toUpperCase();
         str = str.replace(" ", ""); // remove all spaces
         while (str.length() > 0) {
