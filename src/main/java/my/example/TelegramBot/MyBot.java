@@ -39,8 +39,6 @@ public class MyBot extends TelegramLongPollingBot {
             }
         });
         thread.start();
-
-
     }
 
     public static int countLength(String str) {
