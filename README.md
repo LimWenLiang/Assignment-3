@@ -5,7 +5,7 @@
 2. Other related info (if any)
 
 ## Introduction
-This program runs in IntelliJ Version 2020.1.2 (jdk 14) and Telegram Bot with Maven Version 1.11.3 and Java programming language. The Telegram Bot has created by Java Library through the Java source code.
+This program runs by using and Telegram Bot and IntelliJ Version 2020.1.2 (jdk 14) with Maven Version 1.11.3 and Java programming language. The Telegram Bot has created by Java Library through the Java source code.
 
 
 ## Flow Diagram of the requirements
