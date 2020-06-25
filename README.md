@@ -5,11 +5,50 @@
 2. Other related info (if any)
 
 ## Introduction
+This program runs in IntelliJ Version 2020.1.2 (jdk 14) and Telegram Bot with Maven Version 1.11.3 and Java programming language. The Telegram Bot has created by Java Library through the Java source code.
+
+
 ## Flow Diagram of the requirements
+#### MainClass
+![output](images/FlowDiagram_MainClass.png)<br/><br/>
+
+#### MyBot
+![output](images/FlowDiagram_MyBot.png)<br/><br/>
+
+#### Object
+![output](images/FlowDiagram_Object.png)<br/><br/>
+
+#### Count
+![output](images/FlowDiagram_Count.png)<br/><br/>
+
+
 ## User manual
+*BEFORE RUN THE PROGRAM, MAKE SURE YOUR DEVICE IS CONNECTED TO INTERNET*
+1. Create your Telegram Bot.
+
+2. Make sure to insert correct bot name and token create by Bot Father in the Java source code (in MyBot.java class).<br/>
+![output](images/UserManual_1.PNG)<br/><br/>
+
+3. Run the Java Program.
+
+4. Insert your string inside chat box with your Telegram Bot.<br/>
+![output](images/UserManual_2.PNG)<br/><br/>
+
+5. Press 'Enter', output will be display in few second.
+
+
 ## Result/Output (Screenshot the telegram bots)
+![output](images/Output_TelegramBot.PNG)<br/><br/>
+
+
 ## UML Class Diagram
+![output](images/UML_Class_Diagram.PNG)<br/><br/>
+
+
 ## Youtube Presentation
+
+
+
 ## References
 1. Mix TV. (2018, Feb 18). Mix TV: How to create Telegram Bot in Java [ Tutorial ]. Retrieved from https://www.youtube.com/watch?v=xv-FYOizUSY
 2. TalentSprint Coding Prep. (2017, Feb 13). TalentSprint Coding Prep: Java Program to Find the Count of Occurrences of Each Character in a String. Retrieved from https://www.youtube.com/watch?v=OSMHU8mRuFo

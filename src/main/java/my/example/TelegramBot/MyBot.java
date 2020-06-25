@@ -13,9 +13,7 @@ import java.util.ArrayList;
 public class MyBot extends TelegramLongPollingBot {
 
     static SendMessage message = new SendMessage();
-    static String[] temp = new String[100];
-    static String output = "Sorry, there has no letter occur more than 3 times.";
-    static int i = 0;
+    static String output = "Sorry, there have no letter occur more than 3 times.";
     static ArrayList<Object> objectList = new ArrayList<>();
 
 
@@ -64,11 +62,11 @@ public class MyBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "wenliang_bot";
+        return "261938_bot";
     }
 
     @Override
     public String getBotToken() {
-        return "1160848603:AAFX06cH4Udc7xyRR7PCoHj8Ljpm3AqRsU0";
+        return "1255888791:AAGJvWOH2kUTWA8IT2GSnAN-rAHQS6VA9Vk";
     }
 }
