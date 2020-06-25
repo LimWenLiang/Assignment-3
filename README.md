@@ -34,7 +34,7 @@ This program runs in IntelliJ Version 2020.1.2 (jdk 14) and Telegram Bot with Ma
 4. Insert your string inside chat box with your Telegram Bot.<br/>
 ![output](images/UserManual_2.PNG)<br/><br/>
 
-5. Press 'Enter', output will be display in few second.
+5. Press 'Enter' button, output will be display in few second.
 
 
 ## Result/Output (Screenshot the telegram bots)
