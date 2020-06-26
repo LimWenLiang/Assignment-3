@@ -24,17 +24,12 @@ This program runs by using Telegram Bot and IntelliJ Version 2020.1.2 (jdk 14) w
 
 ## User manual
 *BEFORE RUN THE PROGRAM, MAKE SURE YOUR DEVICE IS CONNECTED TO INTERNET*
-1. Create your Telegram Bot.
+1. Open Telegram Bot with this link -> http://t.me/s261938_bot
 
-2. Make sure to insert correct bot name and token create by Bot Father in the Java source code (in MyBot.java class).<br/>
-![output](images/UserManual_1.PNG)<br/><br/>
-
-3. Run the Java Program.
-
-4. Insert your string inside chat box with your Telegram Bot.<br/>
+2. Insert your string inside chat box with your Telegram Bot.<br/>
 ![output](images/UserManual_2.PNG)<br/><br/>
 
-5. Press 'Enter' button, output will be display in few second.
+3. Press 'Enter' button, output will be display in few second.
 
 
 ## Result/Output (Screenshot the telegram bots)
