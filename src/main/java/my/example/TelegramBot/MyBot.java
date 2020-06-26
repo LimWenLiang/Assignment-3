@@ -31,7 +31,6 @@ public class MyBot extends TelegramLongPollingBot {
                 readObj();
 
                 execute(message.setText("Message: " + input + "\n"));
-                execute(message.setText("Thread Name: " + Thread.currentThread().getName()));
                 execute(message.setText("Length of the message: " + count.length(input)));
                 execute(message.setText("Occurance of letter:"));
 
@@ -44,6 +43,9 @@ public class MyBot extends TelegramLongPollingBot {
                 } else if (objectList.size() == temp) {
                     execute(message.setText(output));
                 }
+
+                execute(message.setText("Execute by Thread: " + Thread.currentThread().getName()));
+
             } catch (TelegramApiException | IOException | ClassNotFoundException e) {
                 e.printStackTrace();
             }
