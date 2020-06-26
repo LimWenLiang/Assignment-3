@@ -45,6 +45,7 @@ public class MyBot extends TelegramLongPollingBot {
                 }
 
                 execute(message.setText("Execute by Thread: " + Thread.currentThread().getName()));
+                System.out.println(input);
 
             } catch (TelegramApiException | IOException | ClassNotFoundException e) {
                 e.printStackTrace();
