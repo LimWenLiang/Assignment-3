@@ -30,8 +30,10 @@ public class MyBot extends TelegramLongPollingBot {
                 count.writeObj();
                 readObj();
 
+                execute(message.setText("Message: " + input + "\n"));
                 execute(message.setText("Thread Name: " + Thread.currentThread().getName()));
-                execute(message.setText("Length: " + count.length(input)));
+                execute(message.setText("Length of the message: " + count.length(input)));
+                execute(message.setText("Occurance of letter:"));
 
                 if (objectList.size() > temp) {
                     for (int i = temp; i < objectList.size(); i++) {
