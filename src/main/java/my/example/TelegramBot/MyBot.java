@@ -10,12 +10,23 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.ArrayList;
 
+/**
+ * This class is for manipulating your Telegram Bot.
+ *
+ * @author Lim Wen Liang
+ */
+
 public class MyBot extends TelegramLongPollingBot {
 
     static SendMessage message = new SendMessage();
     static String output = "Sorry, there have no letter occur more than 3 times.";
     static ArrayList<Object> objectList = new ArrayList<>();
 
+    /**
+     * This method is for manipulating the message received and displayed from Telegram Bot.
+     *
+     * @param update The message received from Telegram Bot.
+     */
 
     @Override
     public void onUpdateReceived(Update update) {
@@ -54,6 +65,13 @@ public class MyBot extends TelegramLongPollingBot {
         thread.start();
     }
 
+    /**
+     * This method is for reading data from a object.
+     *
+     * @throws IOException
+     * @throws ClassNotFoundException
+     */
+
     public static void readObj() throws IOException, ClassNotFoundException {
 
         FileInputStream fis = new FileInputStream("Object.ser");
@@ -65,10 +83,22 @@ public class MyBot extends TelegramLongPollingBot {
         fis.close();
     }
 
+    /**
+     * This method is for getting the username of your Telegram Bot.
+     *
+     * @return Your username of your Telegram Bot.
+     */
+
     @Override
     public String getBotUsername() {
         return "261938_bot";
     }
+
+    /**
+     * This method is for getting the token of your Telegram Bot.
+     *
+     * @return Your token of your Telegram Bot.
+     */
 
     @Override
     public String getBotToken() {

@@ -19,7 +19,10 @@ public class MainClass {
         }
     }
 
-    // to disable warning
+    /**
+     * This method is for disable the occurring of warning message in the output.
+     */
+
     public static void disableWarning() {
         System.err.close();
         System.setErr(System.out);
